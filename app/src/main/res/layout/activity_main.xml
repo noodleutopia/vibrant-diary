@@ -11,7 +11,14 @@
     tools:context="ss.pku.vibrantdiary.MainActivity">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="新项目开始！" />
+
+    <EditText
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"/>
 </RelativeLayout>
